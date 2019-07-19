@@ -13,7 +13,7 @@ def line(array)
 end
 
 def take_a_number(katz_deli, name)
-    index = 0
+    index = katz_deli.length
     katz_deli << name
     puts  "Welcome, #{name}. You are number #{index + 1} in line."
 end

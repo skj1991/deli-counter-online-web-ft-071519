@@ -1,1 +1,2 @@
-def line 
+def deli_counter
+end

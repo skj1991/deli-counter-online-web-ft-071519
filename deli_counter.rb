@@ -10,3 +10,6 @@ def line(array)
      return current_line
  end
 end
+
+def take_a_number
+end

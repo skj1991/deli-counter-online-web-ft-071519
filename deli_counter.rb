@@ -1,7 +1,7 @@
 def line(array)
  current_line = []
-   if current_line.size == 0
-    "The line is currently empty."
+   while current_line.size == 0
+     puts "The line is currently empty."
    else
      array.each do |name,index|
        customers = "The line is currently: #{index + 1}. #{name}"

@@ -1,13 +1,14 @@
 def line(array)
- current_line = []
-   if current_line.size == 0
+ customer = []
+ current_line = "The line is currently: "
+   if array.empty?
      puts "The line is currently empty."
    else
-     array.each do |name,index|
+     array.each.with_index(1) do |name, index|
        customers = "The line is currently: #{index + 1}. #{name}"
-       current_line << customers
+       customer.push("#{index}. #{name}")
    end
-     return current_line
+     puts current_line + customer.join(" ")
  end
 end
 

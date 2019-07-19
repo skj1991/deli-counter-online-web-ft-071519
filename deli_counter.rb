@@ -1,6 +1,6 @@
 def line(array)
  current_line = []
-   while current_line.size == 0
+   if current_line.size == 0
      puts "The line is currently empty."
    else
      array.each do |name,index|
